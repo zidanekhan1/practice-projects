@@ -22,4 +22,5 @@ if text_input:
     outputa = model.invoke(message)
     russian_output = outputa.content
 
-    st.markdown(f"### 🪄 Translation:\n\n<span style='font-size:22px;'>{russian_output}</span>", unsafe_allow_html=True)
+
+    st.markdown(f"###  Translation:\n\n<span style='font-size:22px;'>{russian_output}</span>", unsafe_allow_html=True)
